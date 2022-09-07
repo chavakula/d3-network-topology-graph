@@ -1,0 +1,118 @@
+{
+    "nodes": [
+      {
+        "id": 1,
+        "name": "Rack 1",
+        "image": "img/rack1.png",
+        "description": "Rack 1 description"
+
+      },
+      {
+        "id": 2,
+        "name": "Rack 2",
+        "image": "img/rack2.png",
+        "description": "Rack 2 description"
+      },
+      {
+        "id": 3,
+        "name": "Tower 2",
+        "image": "img/tower.png",
+        "description": "Rack 3 description"
+      },
+      {
+        "id": 4,
+        "name": "Tower 1",
+        "image": "img/tower.png",
+        "description": "Rack 4 description"
+      },
+      {
+        "id": 5,
+        "name": "Rack 5",
+        "image": "img/rack2.png",
+        "description": "Rack 5 description"
+      },
+      {
+        "id": 6,
+        "name": "Rack 6",
+        "image": "img/rack2.png",
+        "description": "Rack 6 description"
+      },
+      {
+        "id": 7,
+        "name": "Tower 3",
+        "image": "img/tower.png",
+        "description": "Rack 7 description"
+      },
+      {
+        "id": 8,
+        "name": "Tower 4",
+        "image": "img/tower.png",
+        "description": "Rack 8 description"
+      },
+      {
+        "id": 9,
+        "name": "Rack 9",
+        "image": "img/rack2.png",
+        "description": "Rack 9 description"
+      },
+      {
+        "id": 10,
+        "name": "Rack 10",
+        "image": "img/tower.png",
+        "description": "Rack 10 description"
+      }
+    ],
+    "links": [
+  
+      {
+        "source_id": 1,
+        "target_id": 2,
+        "title": "link 1-2"
+      },
+      {
+        "source_id": 2,
+        "target_id": 3,
+        "title": "link 2-3"
+      },
+      {
+        "source_id": 2,
+        "target_id": 4,
+        "title": "link 2-4"
+      },
+       {
+        "source_id": 2,
+        "target_id": 7,
+        "title": "link 7-2"
+      },
+      {
+        "source_id": 3,
+        "target_id": 7,
+        "title": "link 3-7"
+        },
+       {
+        "source_id": 8,
+        "target_id": 3,
+        "title": "link 8-3"
+      },
+      {
+       "source_id": 8,
+       "target_id": 7,
+       "title": "link 8-7"
+     },
+     {
+        "source_id": 8,
+        "target_id": 4,
+        "title": "link 8-4"
+      },
+      {
+        "source_id": 3,
+        "target_id": 4,
+        "title": "link 3-4"
+      },
+      {
+        "source_id": 5,
+        "target_id": 10,
+        "title": "link 5-10"
+      }
+    ]
+  }
